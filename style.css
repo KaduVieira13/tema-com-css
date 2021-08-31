@@ -1,14 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
 body {
+    background-image: url("/img/bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 main#container {
+    width: 100%;
+
 }
 
 h1.titulo {
+    font-family: 'Cinzel Decorative', cursive;
+    border-top: solid;
+    color: white;
+    
 }
 
+
+
 p.frase {
+    font-family: 'Cardo', serif;
+    color:	#D3D3D3;
+    opacity: 0.8;
+    font-size: 26px;
+   
 }
 
 p.autor {
+    font-family: 'Cardo', serif;
+    color:	#FFFAFA;
+    font-size: 28px;
+    border-bottom: solid;
+   
 }
